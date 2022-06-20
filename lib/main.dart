@@ -40,7 +40,7 @@ class ExpenseApp extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: const [
-            SizedBox(
+            SizedBox(             
               width: double.infinity,
               child: Card(
                 color: Colors.blueAccent,
