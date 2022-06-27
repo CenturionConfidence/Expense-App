@@ -41,6 +41,7 @@ class TransactionForm extends StatelessWidget {
                 titleController.text,
                 double.parse(amountController.text),
               );
+              Navigator.of(context).pop();
             },
             child: const Text('Add Transaction'),
           ),
