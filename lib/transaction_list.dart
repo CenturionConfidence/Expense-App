@@ -20,8 +20,12 @@ class TransactionItem extends StatelessWidget {
                     style: const TextStyle(fontSize: 20),
                   ),
                 ),
-                title: Text(transaction[index].title),
-                subtitle: Text(transaction[index].date.toString()),
+                title: Text(
+                  transaction[index].title,
+                ),
+                subtitle: Text(
+                  transaction[index].date.toString(),
+                ),
               ),
             )),
         itemCount: transaction.length,
